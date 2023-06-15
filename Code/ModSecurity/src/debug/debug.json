@@ -1,0 +1,17 @@
+[
+  {
+    "Attackname": "REQUEST-941-APPLICATION-ATTACK-XSS",
+    "Time": "13/Jun/2023:01:39:57",
+    "Msg": "msg \"Javascript method detected\"] [data \"Matched Data: alert( found within ARGS:name: \u003cscript\u003e alert() \u003c/script\u003e\"] [severity \"CRITICAL\"] [ver \"OWASP_CRS/4.0.0-rc1\"] [tag \"application-multi\"] [tag \"language-multi\"] [tag \"attack-xss\"] [tag \"paranoia-level/1\"] [tag \"OWASP_CRS\"] [tag \"capec/1000/152/242\"]"
+  },
+  {
+    "Attackname": "REQUEST-949-BLOCKING-EVALUATION",
+    "Time": "13/Jun/2023:01:39:57",
+    "Msg": "msg \"Inbound Anomaly Score Exceeded (Total Score: 20)\"] [ver \"OWASP_CRS/4.0.0-rc1\"] [tag \"anomaly-evaluation\"]"
+  },
+  {
+    "Attackname": "RESPONSE-980-CORRELATION",
+    "Time": "13/Jun/2023:01:39:57",
+    "Msg": "msg \"Anomaly Scores: (Inbound Scores: blocking\u003d20, detection\u003d20, per_pl\u003d20-0-0-0, threshold\u003d5) - (Outbound Scores: blocking\u003d0, detection\u003d0, per_pl\u003d0-0-0-0, threshold\u003d4) - (SQLI\u003d0, XSS\u003d20, RFI\u003d0, LFI\u003d0, RCE\u003d0, PHPI\u003d0, HTTP\u003d0, SESS\u003d0, COMBINED_SCORE\u003d20)\"] [ver \"OWASP_CRS/4.0.0-rc1\"] [tag \"reporting\"]"
+  }
+]
